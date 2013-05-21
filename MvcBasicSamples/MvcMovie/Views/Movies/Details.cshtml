@@ -1,0 +1,57 @@
+@model MvcMovie.Models.Movie
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <fieldset>
+    	<legend>Movie</legend>
+    	<dl>
+    		<dt>
+    			@Html.DisplayNameFor(model => model.Title)
+    		</dt>
+    
+    		<dd>
+    			@Html.DisplayFor(model => model.Title)
+    		</dd>
+    
+    		<dt>
+    			@Html.DisplayNameFor(model => model.ReleaseDate)
+    		</dt>
+    
+    		<dd>
+    			@Html.DisplayFor(model => model.ReleaseDate)
+    		</dd>
+    
+    		<dt>
+    			@Html.DisplayNameFor(model => model.Genre)
+    		</dt>
+    
+    		<dd>
+    			@Html.DisplayFor(model => model.Genre)
+    		</dd>
+    
+    		<dt>
+    			@Html.DisplayNameFor(model => model.Price)
+    		</dt>
+    
+    		<dd>
+    			@Html.DisplayFor(model => model.Price)
+    		</dd>
+    
+    	</dl>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
