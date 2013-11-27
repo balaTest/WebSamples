@@ -16,7 +16,8 @@ ProductStore :
 
 ProductStore2 :
 	
-	Using Web API with Entity Framework (7 Tutorials)	How to create a web API that uses Entity Framework for database persistence / Knockout for client-side
+	Using Web API with Entity Framework (7 Tutorials)
+	How to create a web API that uses Entity Framework for database persistence / Knockout for client-side
 	
 	From <http://www.asp.net/web-api/overview/creating-web-apis/using-web-api-with-entity-framework/using-web-api-with-entity-framework,-part-1> 
 
