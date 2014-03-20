@@ -12,12 +12,12 @@ namespace MigrationsDemoConsoleApp
         {
             using (var db = new BlogContext())
             {
-                db.Blogs.Add(new Blog { Name = "Another Blog " });
+                db.Blogs.Add(new Blog { Name = "Another Blog ", Url = "msn.com" });
                 db.SaveChanges();
 
                 foreach (var blog in db.Blogs)
                 {
-                    Console.WriteLine(blog.Name);
+                    Console.WriteLine(blog.Name + ", Url = " + blog.Url);
                 }
             }
 
