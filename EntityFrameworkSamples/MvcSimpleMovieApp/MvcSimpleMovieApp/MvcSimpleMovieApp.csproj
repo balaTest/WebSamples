@@ -106,6 +106,10 @@
     <Compile Include="Migrations\201403210042194_InitialCreate.Designer.cs">
       <DependentUpon>201403210042194_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201403210108301_AddToMovieTable1.cs" />
+    <Compile Include="Migrations\201403210108301_AddToMovieTable1.Designer.cs">
+      <DependentUpon>201403210108301_AddToMovieTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,6 +137,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201403210042194_InitialCreate.resx">
       <DependentUpon>201403210042194_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403210108301_AddToMovieTable1.resx">
+      <DependentUpon>201403210108301_AddToMovieTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
