@@ -15,7 +15,7 @@ namespace MvcSimpleMovieApp.Models
 
     public class MovieContext : DbContext
     {
-        public MovieContext() : base ("name=MoviesContext")
+        public MovieContext() : base ("name=Movies")
         // C# will call base class parameterless constructor by default
         {
         }
