@@ -21,3 +21,11 @@ ProductStore2 :
 	
 	From <http://www.asp.net/web-api/overview/creating-web-apis/using-web-api-with-entity-framework/using-web-api-with-entity-framework,-part-1> 
 
+
+BookService :
+	
+	Using Web API 2 with Entity Framework 6
+	ASP.NET Web API 2 with Entity Framework 6 to create a web application that manipulates a back-end database / Knockout for client-side
+	
+	From <http://www.asp.net/web-api/overview/creating-web-apis/using-web-api-with-entity-framework/part-1> 
+
