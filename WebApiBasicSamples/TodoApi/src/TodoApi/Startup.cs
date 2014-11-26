@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
+using TodoApi.Models;
 
 namespace TodoApi
 {
@@ -10,6 +11,7 @@ namespace TodoApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSingleton<ITodoRepository, TodoRepository>();
         }
 
         public void Configure(IApplicationBuilder app)
